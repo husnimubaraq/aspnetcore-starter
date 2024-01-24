@@ -1,0 +1,338 @@
+2023-12-15 11:36:48.313 +07:00 [INF] Starting Husni.ChatApp.AuthServer.
+2023-12-15 11:36:53.314 +07:00 [INF] Loaded ABP modules:
+2023-12-15 11:36:53.316 +07:00 [INF] - Husni.ChatApp.ChatAppAuthServerModule
+2023-12-15 11:36:53.316 +07:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2023-12-15 11:36:53.316 +07:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2023-12-15 11:36:53.316 +07:00 [INF]   - Volo.Abp.Caching.StackExchangeRedis.AbpCachingStackExchangeRedisModule
+2023-12-15 11:36:53.316 +07:00 [INF]     - Volo.Abp.Caching.AbpCachingModule
+2023-12-15 11:36:53.316 +07:00 [INF]       - Volo.Abp.Threading.AbpThreadingModule
+2023-12-15 11:36:53.316 +07:00 [INF]       - Volo.Abp.Serialization.AbpSerializationModule
+2023-12-15 11:36:53.317 +07:00 [INF]       - Volo.Abp.Uow.AbpUnitOfWorkModule
+2023-12-15 11:36:53.317 +07:00 [INF]       - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2023-12-15 11:36:53.317 +07:00 [INF]         - Volo.Abp.Data.AbpDataModule
+2023-12-15 11:36:53.317 +07:00 [INF]           - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2023-12-15 11:36:53.317 +07:00 [INF]             - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2023-12-15 11:36:53.317 +07:00 [INF]             - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2023-12-15 11:36:53.317 +07:00 [INF]           - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2023-12-15 11:36:53.317 +07:00 [INF]         - Volo.Abp.Security.AbpSecurityModule
+2023-12-15 11:36:53.317 +07:00 [INF]         - Volo.Abp.Settings.AbpSettingsModule
+2023-12-15 11:36:53.317 +07:00 [INF]         - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+2023-12-15 11:36:53.317 +07:00 [INF]           - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2023-12-15 11:36:53.317 +07:00 [INF]           - Volo.Abp.Localization.AbpLocalizationModule
+2023-12-15 11:36:53.317 +07:00 [INF]       - Volo.Abp.Json.AbpJsonModule
+2023-12-15 11:36:53.317 +07:00 [INF]         - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2023-12-15 11:36:53.317 +07:00 [INF]           - Volo.Abp.Json.AbpJsonAbstractionsModule
+2023-12-15 11:36:53.317 +07:00 [INF]           - Volo.Abp.Timing.AbpTimingModule
+2023-12-15 11:36:53.317 +07:00 [INF]   - Volo.Abp.DistributedLocking.AbpDistributedLockingModule
+2023-12-15 11:36:53.317 +07:00 [INF]     - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2023-12-15 11:36:53.317 +07:00 [INF]   - Volo.Abp.Account.Web.AbpAccountWebOpenIddictModule
+2023-12-15 11:36:53.317 +07:00 [INF]     - Volo.Abp.Account.Web.AbpAccountWebModule
+2023-12-15 11:36:53.317 +07:00 [INF]       - Volo.Abp.Account.AbpAccountApplicationContractsModule
+2023-12-15 11:36:53.317 +07:00 [INF]         - Volo.Abp.Identity.AbpIdentityApplicationContractsModule
+2023-12-15 11:36:53.317 +07:00 [INF]           - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2023-12-15 11:36:53.317 +07:00 [INF]             - Volo.Abp.Users.AbpUsersDomainSharedModule
+2023-12-15 11:36:53.317 +07:00 [INF]             - Volo.Abp.Validation.AbpValidationModule
+2023-12-15 11:36:53.317 +07:00 [INF]             - Volo.Abp.Features.AbpFeaturesModule
+2023-12-15 11:36:53.317 +07:00 [INF]               - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2023-12-15 11:36:53.317 +07:00 [INF]           - Volo.Abp.Users.AbpUsersAbstractionModule
+2023-12-15 11:36:53.317 +07:00 [INF]             - Volo.Abp.EventBus.AbpEventBusModule
+2023-12-15 11:36:53.317 +07:00 [INF]               - Volo.Abp.Guids.AbpGuidsModule
+2023-12-15 11:36:53.317 +07:00 [INF]               - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2023-12-15 11:36:53.317 +07:00 [INF]           - Volo.Abp.Authorization.AbpAuthorizationModule
+2023-12-15 11:36:53.317 +07:00 [INF]           - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2023-12-15 11:36:53.317 +07:00 [INF]             - Volo.Abp.Application.AbpDddApplicationContractsModule
+2023-12-15 11:36:53.317 +07:00 [INF]               - Volo.Abp.Auditing.AbpAuditingContractsModule
+2023-12-15 11:36:53.317 +07:00 [INF]             - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2023-12-15 11:36:53.317 +07:00 [INF]       - Volo.Abp.Identity.AspNetCore.AbpIdentityAspNetCoreModule
+2023-12-15 11:36:53.317 +07:00 [INF]         - Volo.Abp.Identity.AbpIdentityDomainModule
+2023-12-15 11:36:53.317 +07:00 [INF]           - Volo.Abp.Domain.AbpDddDomainModule
+2023-12-15 11:36:53.317 +07:00 [INF]             - Volo.Abp.Auditing.AbpAuditingModule
+2023-12-15 11:36:53.317 +07:00 [INF]             - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2023-12-15 11:36:53.317 +07:00 [INF]             - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2023-12-15 11:36:53.317 +07:00 [INF]             - Volo.Abp.Specifications.AbpSpecificationsModule
+2023-12-15 11:36:53.317 +07:00 [INF]             - Volo.Abp.Domain.AbpDddDomainSharedModule
+2023-12-15 11:36:53.317 +07:00 [INF]           - Volo.Abp.Users.AbpUsersDomainModule
+2023-12-15 11:36:53.317 +07:00 [INF]           - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2023-12-15 11:36:53.317 +07:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared.AbpAspNetCoreMvcUiThemeSharedModule
+2023-12-15 11:36:53.317 +07:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.AbpAspNetCoreMvcUiBootstrapModule
+2023-12-15 11:36:53.317 +07:00 [INF]           - Volo.Abp.AspNetCore.Mvc.UI.AbpAspNetCoreMvcUiModule
+2023-12-15 11:36:53.317 +07:00 [INF]             - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2023-12-15 11:36:53.317 +07:00 [INF]               - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2023-12-15 11:36:53.317 +07:00 [INF]                 - Volo.Abp.Http.AbpHttpModule
+2023-12-15 11:36:53.317 +07:00 [INF]                   - Volo.Abp.Http.AbpHttpAbstractionsModule
+2023-12-15 11:36:53.317 +07:00 [INF]                   - Volo.Abp.Minify.AbpMinifyModule
+2023-12-15 11:36:53.317 +07:00 [INF]               - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2023-12-15 11:36:53.317 +07:00 [INF]               - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2023-12-15 11:36:53.317 +07:00 [INF]               - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2023-12-15 11:36:53.317 +07:00 [INF]                 - Volo.Abp.UI.AbpUiModule
+2023-12-15 11:36:53.317 +07:00 [INF]               - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2023-12-15 11:36:53.317 +07:00 [INF]               - Volo.Abp.Application.AbpDddApplicationModule
+2023-12-15 11:36:53.317 +07:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.Packages.AbpAspNetCoreMvcUiPackagesModule
+2023-12-15 11:36:53.317 +07:00 [INF]           - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingAbstractionsModule
+2023-12-15 11:36:53.317 +07:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.Widgets.AbpAspNetCoreMvcUiWidgetsModule
+2023-12-15 11:36:53.317 +07:00 [INF]           - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingModule
+2023-12-15 11:36:53.317 +07:00 [INF]     - Volo.Abp.OpenIddict.AbpOpenIddictAspNetCoreModule
+2023-12-15 11:36:53.317 +07:00 [INF]       - Volo.Abp.AspNetCore.MultiTenancy.AbpAspNetCoreMultiTenancyModule
+2023-12-15 11:36:53.317 +07:00 [INF]       - Volo.Abp.OpenIddict.AbpOpenIddictDomainModule
+2023-12-15 11:36:53.317 +07:00 [INF]         - Volo.Abp.OpenIddict.AbpOpenIddictDomainSharedModule
+2023-12-15 11:36:53.317 +07:00 [INF]   - Volo.Abp.Account.AbpAccountApplicationModule
+2023-12-15 11:36:53.317 +07:00 [INF]     - Volo.Abp.Identity.AbpIdentityApplicationModule
+2023-12-15 11:36:53.317 +07:00 [INF]       - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationModule
+2023-12-15 11:36:53.317 +07:00 [INF]         - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2023-12-15 11:36:53.317 +07:00 [INF]     - Volo.Abp.Emailing.AbpEmailingModule
+2023-12-15 11:36:53.317 +07:00 [INF]       - Volo.Abp.BackgroundJobs.AbpBackgroundJobsAbstractionsModule
+2023-12-15 11:36:53.317 +07:00 [INF]       - Volo.Abp.TextTemplating.AbpTextTemplatingModule
+2023-12-15 11:36:53.317 +07:00 [INF]         - Volo.Abp.TextTemplating.Scriban.AbpTextTemplatingScribanModule
+2023-12-15 11:36:53.317 +07:00 [INF]           - Volo.Abp.TextTemplating.AbpTextTemplatingCoreModule
+2023-12-15 11:36:53.317 +07:00 [INF]   - Volo.Abp.Account.AbpAccountHttpApiModule
+2023-12-15 11:36:53.317 +07:00 [INF]     - Volo.Abp.Identity.AbpIdentityHttpApiModule
+2023-12-15 11:36:53.317 +07:00 [INF]   - Volo.Abp.AspNetCore.Mvc.UI.Theme.LeptonXLite.AbpAspNetCoreMvcUiLeptonXLiteThemeModule
+2023-12-15 11:36:53.317 +07:00 [INF]     - Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy.AbpAspNetCoreMvcUiMultiTenancyModule
+2023-12-15 11:36:53.317 +07:00 [INF]   - Husni.ChatApp.EntityFrameworkCore.ChatAppEntityFrameworkCoreModule
+2023-12-15 11:36:53.317 +07:00 [INF]     - Husni.ChatApp.ChatAppDomainModule
+2023-12-15 11:36:53.317 +07:00 [INF]       - Husni.ChatApp.ChatAppDomainSharedModule
+2023-12-15 11:36:53.317 +07:00 [INF]         - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
+2023-12-15 11:36:53.317 +07:00 [INF]         - Volo.Abp.BackgroundJobs.AbpBackgroundJobsDomainSharedModule
+2023-12-15 11:36:53.317 +07:00 [INF]         - Volo.Abp.FeatureManagement.AbpFeatureManagementDomainSharedModule
+2023-12-15 11:36:53.317 +07:00 [INF]         - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2023-12-15 11:36:53.317 +07:00 [INF]         - Volo.Abp.TenantManagement.AbpTenantManagementDomainSharedModule
+2023-12-15 11:36:53.317 +07:00 [INF]       - Volo.Abp.AuditLogging.AbpAuditLoggingDomainModule
+2023-12-15 11:36:53.317 +07:00 [INF]       - Volo.Abp.BackgroundJobs.AbpBackgroundJobsDomainModule
+2023-12-15 11:36:53.317 +07:00 [INF]         - Volo.Abp.BackgroundJobs.AbpBackgroundJobsModule
+2023-12-15 11:36:53.317 +07:00 [INF]       - Volo.Abp.FeatureManagement.AbpFeatureManagementDomainModule
+2023-12-15 11:36:53.317 +07:00 [INF]       - Volo.Abp.PermissionManagement.OpenIddict.AbpPermissionManagementDomainOpenIddictModule
+2023-12-15 11:36:53.318 +07:00 [INF]       - Volo.Abp.PermissionManagement.Identity.AbpPermissionManagementDomainIdentityModule
+2023-12-15 11:36:53.318 +07:00 [INF]       - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+2023-12-15 11:36:53.318 +07:00 [INF]       - Volo.Abp.TenantManagement.AbpTenantManagementDomainModule
+2023-12-15 11:36:53.318 +07:00 [INF]     - Volo.Abp.Identity.EntityFrameworkCore.AbpIdentityEntityFrameworkCoreModule
+2023-12-15 11:36:53.318 +07:00 [INF]       - Volo.Abp.Users.EntityFrameworkCore.AbpUsersEntityFrameworkCoreModule
+2023-12-15 11:36:53.318 +07:00 [INF]         - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2023-12-15 11:36:53.318 +07:00 [INF]     - Volo.Abp.OpenIddict.EntityFrameworkCore.AbpOpenIddictEntityFrameworkCoreModule
+2023-12-15 11:36:53.318 +07:00 [INF]     - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2023-12-15 11:36:53.318 +07:00 [INF]     - Volo.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
+2023-12-15 11:36:53.318 +07:00 [INF]     - Volo.Abp.EntityFrameworkCore.MySQL.AbpEntityFrameworkCoreMySQLModule
+2023-12-15 11:36:53.318 +07:00 [INF]     - Volo.Abp.BackgroundJobs.EntityFrameworkCore.AbpBackgroundJobsEntityFrameworkCoreModule
+2023-12-15 11:36:53.318 +07:00 [INF]     - Volo.Abp.AuditLogging.EntityFrameworkCore.AbpAuditLoggingEntityFrameworkCoreModule
+2023-12-15 11:36:53.318 +07:00 [INF]     - Volo.Abp.TenantManagement.EntityFrameworkCore.AbpTenantManagementEntityFrameworkCoreModule
+2023-12-15 11:36:53.318 +07:00 [INF]     - Volo.Abp.FeatureManagement.EntityFrameworkCore.AbpFeatureManagementEntityFrameworkCoreModule
+2023-12-15 11:36:53.318 +07:00 [INF]   - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2023-12-15 11:36:53.877 +07:00 [DBG] Started background worker: Volo.Abp.OpenIddict.Tokens.TokenCleanupBackgroundWorker
+2023-12-15 11:36:54.541 +07:00 [INF] User profile is available. Using '/Users/m/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-12-15 11:36:55.078 +07:00 [INF] Initialized all ABP modules.
+2023-12-15 11:36:55.906 +07:00 [INF] Now listening on: https://localhost:44383
+2023-12-15 11:36:55.908 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-15 11:36:55.908 +07:00 [INF] Hosting environment: Development
+2023-12-15 11:36:55.908 +07:00 [INF] Content root path: /Users/m/Project/Web/ABP/Husni.ChatApp/src/Husni.ChatApp.AuthServer
+2023-12-15 11:37:38.511 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44383/.well-known/openid-configuration - null null
+2023-12-15 11:37:38.888 +07:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessRequestContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ResolveRequestUri.
+2023-12-15 11:37:38.921 +07:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ResolveRequestUri.
+2023-12-15 11:37:38.935 +07:00 [INF] The request URI matched a server endpoint: "Configuration".
+2023-12-15 11:37:38.935 +07:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+InferEndpointType.
+2023-12-15 11:37:38.938 +07:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ValidateTransportSecurityRequirement.
+2023-12-15 11:37:38.939 +07:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ValidateHostHeader.
+2023-12-15 11:37:38.947 +07:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ExtractConfigurationRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ExtractGetRequest`1[[OpenIddict.Server.OpenIddictServerEvents+ExtractConfigurationRequestContext, OpenIddict.Server, Version=4.10.0.0, Culture=neutral, PublicKeyToken=35a561290d20de2f]].
+2023-12-15 11:37:38.951 +07:00 [INF] The configuration request was successfully extracted: {}.
+2023-12-15 11:37:38.951 +07:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Discovery+ExtractConfigurationRequest.
+2023-12-15 11:37:38.955 +07:00 [INF] The configuration request was successfully validated.
+2023-12-15 11:37:38.955 +07:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Discovery+ValidateConfigurationRequest.
+2023-12-15 11:37:38.959 +07:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+HandleConfigurationRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Discovery+AttachIssuer.
+2023-12-15 11:37:38.962 +07:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+HandleConfigurationRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Discovery+AttachEndpoints.
+2023-12-15 11:37:38.963 +07:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+HandleConfigurationRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Discovery+AttachGrantTypes.
+2023-12-15 11:37:38.964 +07:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+HandleConfigurationRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Discovery+AttachResponseModes.
+2023-12-15 11:37:38.964 +07:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+HandleConfigurationRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Discovery+AttachResponseTypes.
+2023-12-15 11:37:38.965 +07:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+HandleConfigurationRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Discovery+AttachClientAuthenticationMethods.
+2023-12-15 11:37:38.965 +07:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+HandleConfigurationRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Discovery+AttachCodeChallengeMethods.
+2023-12-15 11:37:38.966 +07:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+HandleConfigurationRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Discovery+AttachScopes.
+2023-12-15 11:37:41.207 +07:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+HandleConfigurationRequestContext was successfully processed by Volo.Abp.OpenIddict.Scopes.AttachScopes.
+2023-12-15 11:37:41.208 +07:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+HandleConfigurationRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Discovery+AttachClaims.
+2023-12-15 11:37:41.209 +07:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+HandleConfigurationRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Discovery+AttachSubjectTypes.
+2023-12-15 11:37:41.210 +07:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+HandleConfigurationRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Discovery+AttachSigningAlgorithms.
+2023-12-15 11:37:41.212 +07:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+HandleConfigurationRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Discovery+AttachAdditionalMetadata.
+2023-12-15 11:37:41.216 +07:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Discovery+HandleConfigurationRequest.
+2023-12-15 11:37:41.220 +07:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ApplyConfigurationResponseContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+AttachHttpResponseCode`1[[OpenIddict.Server.OpenIddictServerEvents+ApplyConfigurationResponseContext, OpenIddict.Server, Version=4.10.0.0, Culture=neutral, PublicKeyToken=35a561290d20de2f]].
+2023-12-15 11:37:41.222 +07:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ApplyConfigurationResponseContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+AttachWwwAuthenticateHeader`1[[OpenIddict.Server.OpenIddictServerEvents+ApplyConfigurationResponseContext, OpenIddict.Server, Version=4.10.0.0, Culture=neutral, PublicKeyToken=35a561290d20de2f]].
+2023-12-15 11:37:41.224 +07:00 [INF] The response was successfully returned as a JSON document: {
+  "issuer": "https://localhost:44383/",
+  "authorization_endpoint": "https://localhost:44383/connect/authorize",
+  "token_endpoint": "https://localhost:44383/connect/token",
+  "introspection_endpoint": "https://localhost:44383/connect/introspect",
+  "end_session_endpoint": "https://localhost:44383/connect/logout",
+  "revocation_endpoint": "https://localhost:44383/connect/revocat",
+  "userinfo_endpoint": "https://localhost:44383/connect/userinfo",
+  "device_authorization_endpoint": "https://localhost:44383/device",
+  "jwks_uri": "https://localhost:44383/.well-known/jwks",
+  "grant_types_supported": [
+    "authorization_code",
+    "implicit",
+    "password",
+    "client_credentials",
+    "refresh_token",
+    "urn:ietf:params:oauth:grant-type:device_code"
+  ],
+  "response_types_supported": [
+    "code",
+    "code id_token",
+    "code id_token token",
+    "code token",
+    "id_token",
+    "id_token token",
+    "token",
+    "none"
+  ],
+  "response_modes_supported": [
+    "form_post",
+    "fragment",
+    "query"
+  ],
+  "scopes_supported": [
+    "openid",
+    "offline_access",
+    "email",
+    "profile",
+    "phone",
+    "roles",
+    "address",
+    "ChatApp"
+  ],
+  "claims_supported": [
+    "aud",
+    "exp",
+    "iat",
+    "iss",
+    "sub"
+  ],
+  "id_token_signing_alg_values_supported": [
+    "RS256"
+  ],
+  "code_challenge_methods_supported": [
+    "plain",
+    "S256"
+  ],
+  "subject_types_supported": [
+    "public"
+  ],
+  "token_endpoint_auth_methods_supported": [
+    "client_secret_basic",
+    "client_secret_post"
+  ],
+  "introspection_endpoint_auth_methods_supported": [
+    "client_secret_basic",
+    "client_secret_post"
+  ],
+  "revocation_endpoint_auth_methods_supported": [
+    "client_secret_basic",
+    "client_secret_post"
+  ],
+  "device_authorization_endpoint_auth_methods_supported": [
+    "client_secret_basic",
+    "client_secret_post"
+  ],
+  "claims_parameter_supported": false,
+  "request_parameter_supported": false,
+  "request_uri_parameter_supported": false,
+  "authorization_response_iss_parameter_supported": true
+}.
+2023-12-15 11:37:41.231 +07:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ApplyConfigurationResponseContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ProcessJsonResponse`1[[OpenIddict.Server.OpenIddictServerEvents+ApplyConfigurationResponseContext, OpenIddict.Server, Version=4.10.0.0, Culture=neutral, PublicKeyToken=35a561290d20de2f]].
+2023-12-15 11:37:41.232 +07:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ApplyConfigurationResponseContext was marked as handled by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ProcessJsonResponse`1[[OpenIddict.Server.OpenIddictServerEvents+ApplyConfigurationResponseContext, OpenIddict.Server, Version=4.10.0.0, Culture=neutral, PublicKeyToken=35a561290d20de2f]].
+2023-12-15 11:37:41.232 +07:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Discovery+ApplyConfigurationResponse`1[[OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext, OpenIddict.Server, Version=4.10.0.0, Culture=neutral, PublicKeyToken=35a561290d20de2f]].
+2023-12-15 11:37:41.232 +07:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was marked as handled by OpenIddict.Server.OpenIddictServerHandlers+Discovery+ApplyConfigurationResponse`1[[OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext, OpenIddict.Server, Version=4.10.0.0, Culture=neutral, PublicKeyToken=35a561290d20de2f]].
+2023-12-15 11:37:41.241 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44383/.well-known/openid-configuration - 200 2057 application/json;charset=UTF-8 2730.7196ms
+2023-12-15 11:37:41.268 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44383/.well-known/jwks - null null
+2023-12-15 11:37:41.272 +07:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessRequestContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ResolveRequestUri.
+2023-12-15 11:37:41.273 +07:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ResolveRequestUri.
+2023-12-15 11:37:41.273 +07:00 [INF] The request URI matched a server endpoint: "Cryptography".
+2023-12-15 11:37:41.273 +07:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+InferEndpointType.
+2023-12-15 11:37:41.273 +07:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ValidateTransportSecurityRequirement.
+2023-12-15 11:37:41.273 +07:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ValidateHostHeader.
+2023-12-15 11:37:41.276 +07:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ExtractCryptographyRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ExtractGetRequest`1[[OpenIddict.Server.OpenIddictServerEvents+ExtractCryptographyRequestContext, OpenIddict.Server, Version=4.10.0.0, Culture=neutral, PublicKeyToken=35a561290d20de2f]].
+2023-12-15 11:37:41.276 +07:00 [INF] The cryptography request was successfully extracted: {}.
+2023-12-15 11:37:41.276 +07:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Discovery+ExtractCryptographyRequest.
+2023-12-15 11:37:41.278 +07:00 [INF] The cryptography request was successfully validated.
+2023-12-15 11:37:41.279 +07:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Discovery+ValidateCryptographyRequest.
+2023-12-15 11:37:41.290 +07:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+HandleCryptographyRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Discovery+AttachSigningKeys.
+2023-12-15 11:37:41.292 +07:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Discovery+HandleCryptographyRequest.
+2023-12-15 11:37:41.296 +07:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ApplyCryptographyResponseContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+AttachHttpResponseCode`1[[OpenIddict.Server.OpenIddictServerEvents+ApplyCryptographyResponseContext, OpenIddict.Server, Version=4.10.0.0, Culture=neutral, PublicKeyToken=35a561290d20de2f]].
+2023-12-15 11:37:41.296 +07:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ApplyCryptographyResponseContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+AttachWwwAuthenticateHeader`1[[OpenIddict.Server.OpenIddictServerEvents+ApplyCryptographyResponseContext, OpenIddict.Server, Version=4.10.0.0, Culture=neutral, PublicKeyToken=35a561290d20de2f]].
+2023-12-15 11:37:41.297 +07:00 [INF] The response was successfully returned as a JSON document: {
+  "keys": [
+    {
+      "kid": "D39D3211D3C41A43FC1685F96AAFBF1D12CB25EA",
+      "use": "sig",
+      "kty": "RSA",
+      "alg": "RS256",
+      "e": "AQAB",
+      "n": "weKSZt8XKNDShcSZMc-ei8DEFlRqVmqbFA2sinnkG6qeIR13FUSkxSZv0W7qwI3OlSQwj_1dPGI52LmKBCp6DEXEgN1esz9oA3e4_uoMr5crzqmwYkT_KfhsMJqdUuKJN2qfCZ-XRwo0zN2lRiivwmgGH8ZKQDgvLNeK44XHlqyy75chSsSbnICSVo41bNLkItaV9Ch-7GeVAhGUsObY8UzFvMNXK9XqVR2l1d_UXfXu_-UEZYCQUgoSb1fwxpM__7Gy9Er74OjRnDHplphelwqHncbD6cQ9CxUeWO92pQX44lMsawSFV6Z0ruuFxrjMPCh5EJdFTcrmnfAwz0xOAw",
+      "x5t": "050yEdPEGkP8FoX5aq-_HRLLJeo",
+      "x5c": [
+        "MIIC9DCCAdygAwIBAgIIA96XARmMlbwwDQYJKoZIhvcNAQELBQAwMDEuMCwGA1UEAxMlT3BlbklkZGljdCBTZXJ2ZXIgU2lnbmluZyBDZXJ0aWZpY2F0ZTAeFw0yMzExMzAwNDMyMjhaFw0yNTExMzAwNDMyMjhaMDAxLjAsBgNVBAMTJU9wZW5JZGRpY3QgU2VydmVyIFNpZ25pbmcgQ2VydGlmaWNhdGUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDB4pJm3xco0NKFxJkxz56LwMQWVGpWapsUDayKeeQbqp4hHXcVRKTFJm/RburAjc6VJDCP/V08YjnYuYoEKnoMRcSA3V6zP2gDd7j+6gyvlyvOqbBiRP8p+Gwwmp1S4ok3ap8Jn5dHCjTM3aVGKK/CaAYfxkpAOC8s14rjhceWrLLvlyFKxJucgJJWjjVs0uQi1pX0KH7sZ5UCEZSw5tjxTMW8w1cr1epVHaXV39Rd9e7/5QRlgJBSChJvV/DGkz//sbL0Svvg6NGcMemWmF6XCoedxsPpxD0LFR5Y73alBfjiUyxrBIVXpnSu64XGuMw8KHkQl0VNyuad8DDPTE4DAgMBAAGjEjAQMA4GA1UdDwEB/wQEAwIHgDANBgkqhkiG9w0BAQsFAAOCAQEAhnhkWDvdiDXIaNSr4YmT/FLzh8mFbKvYUTGlw1clwUqDht8xYgMqr8QhqmAv1UzCrggvpTdA6/VlS495bdqQuwPuUHENaGLAmmbeL4rLC9OlBFTkANepxRCO81XfmJ7uj+zAv4QAWL3O4CDTe5f2yWtXzLcZvVUiehxAXLX1V95Q3mtePysblDbdPBZRfygt7MWDQU7iq/mJLElXDf0BDRYKdHVxdyZ8y2v/Gvf/GpI3JTPpf7yUlFKN0JTYvcdaLQr3bM+vTwW1ddJ42pQlzBpRan9Zr3yuZIaoL3BlgqfLxRzdtUGfq6DvlzUs4QEqRqZOaBz56gO2h9idrdAHLg=="
+      ]
+    }
+  ]
+}.
+2023-12-15 11:37:41.297 +07:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ApplyCryptographyResponseContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ProcessJsonResponse`1[[OpenIddict.Server.OpenIddictServerEvents+ApplyCryptographyResponseContext, OpenIddict.Server, Version=4.10.0.0, Culture=neutral, PublicKeyToken=35a561290d20de2f]].
+2023-12-15 11:37:41.298 +07:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ApplyCryptographyResponseContext was marked as handled by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ProcessJsonResponse`1[[OpenIddict.Server.OpenIddictServerEvents+ApplyCryptographyResponseContext, OpenIddict.Server, Version=4.10.0.0, Culture=neutral, PublicKeyToken=35a561290d20de2f]].
+2023-12-15 11:37:41.298 +07:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Discovery+ApplyCryptographyResponse`1[[OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext, OpenIddict.Server, Version=4.10.0.0, Culture=neutral, PublicKeyToken=35a561290d20de2f]].
+2023-12-15 11:37:41.298 +07:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was marked as handled by OpenIddict.Server.OpenIddictServerHandlers+Discovery+ApplyCryptographyResponse`1[[OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext, OpenIddict.Server, Version=4.10.0.0, Culture=neutral, PublicKeyToken=35a561290d20de2f]].
+2023-12-15 11:37:41.298 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44383/.well-known/jwks - 200 1620 application/json;charset=UTF-8 30.3513ms
+2023-12-15 11:37:41.384 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44383/connect/authorize?client_id=ChatApp_BlazorServerTiered&redirect_uri=https%3A%2F%2Flocalhost%3A44319%2Fsignin-oidc&response_type=code%20id_token&scope=openid%20profile%20roles%20email%20phone%20ChatApp&response_mode=form_post&nonce=638382118613190660.YTdhNDU1ODQtMDFkYi00MTJjLTg0ZTUtZWIyMGMxMjNlZmFiYWRjOWM3YzgtM2YxOC00NGU2LThhZTAtMTdjMzMxYTkxZDQ5&state=CfDJ8BfBL1qkxDpHlytAHoxvlwfjAiV9MOWWLj70WIJ8Y5I3R6apRl0fsDbcE9208nCPU0jTbyRBjNpLSNkL0y5rul9S_kKu4-YAbo4yCOY9ZoDzANpBTLae0CrSko-or1fi80WFW7a1nZ9WddAh5QJfa8NMluFDoGo7UR-l1QCKsxIQRCWlwFu7S_nhJu6Uth116-I1Gc2KKfTJLjiIxQa_eeOFlNFkugoeyywdBARfvlcU1bXHoFCpnQ9P8l-dUWuHMRttHwRkHQU5Q40K5Ye28T55LMOiI_eLl5LTzcYJscFJ&x-client-SKU=ID_NET8_0&x-client-ver=7.0.3.0 - null null
+2023-12-15 11:37:41.396 +07:00 [DBG] The event OpenIddict.Validation.OpenIddictValidationEvents+ProcessRequestContext was successfully processed by OpenIddict.Validation.AspNetCore.OpenIddictValidationAspNetCoreHandlers+ResolveRequestUri.
+2023-12-15 11:37:41.397 +07:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ResolveRequestUri.
+2023-12-15 11:37:41.397 +07:00 [INF] The request URI matched a server endpoint: "Authorization".
+2023-12-15 11:37:41.397 +07:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+InferEndpointType.
+2023-12-15 11:37:41.397 +07:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ValidateTransportSecurityRequirement.
+2023-12-15 11:37:41.397 +07:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ValidateHostHeader.
+2023-12-15 11:37:41.402 +07:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ExtractAuthorizationRequestContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ExtractGetOrPostRequest`1[[OpenIddict.Server.OpenIddictServerEvents+ExtractAuthorizationRequestContext, OpenIddict.Server, Version=4.10.0.0, Culture=neutral, PublicKeyToken=35a561290d20de2f]].
+2023-12-15 11:37:41.403 +07:00 [INF] The authorization request was successfully extracted: {
+  "client_id": "ChatApp_BlazorServerTiered",
+  "redirect_uri": "https://localhost:44319/signin-oidc",
+  "response_type": "code id_token",
+  "scope": "openid profile roles email phone ChatApp",
+  "response_mode": "form_post",
+  "nonce": "638382118613190660.YTdhNDU1ODQtMDFkYi00MTJjLTg0ZTUtZWIyMGMxMjNlZmFiYWRjOWM3YzgtM2YxOC00NGU2LThhZTAtMTdjMzMxYTkxZDQ5",
+  "state": "CfDJ8BfBL1qkxDpHlytAHoxvlwfjAiV9MOWWLj70WIJ8Y5I3R6apRl0fsDbcE9208nCPU0jTbyRBjNpLSNkL0y5rul9S_kKu4-YAbo4yCOY9ZoDzANpBTLae0CrSko-or1fi80WFW7a1nZ9WddAh5QJfa8NMluFDoGo7UR-l1QCKsxIQRCWlwFu7S_nhJu6Uth116-I1Gc2KKfTJLjiIxQa_eeOFlNFkugoeyywdBARfvlcU1bXHoFCpnQ9P8l-dUWuHMRttHwRkHQU5Q40K5Ye28T55LMOiI_eLl5LTzcYJscFJ",
+  "x-client-SKU": "ID_NET8_0",
+  "x-client-ver": "7.0.3.0"
+}.
+2023-12-15 11:37:41.403 +07:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Authentication+ExtractAuthorizationRequest.
+2023-12-15 11:37:41.406 +07:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ValidateAuthorizationRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Authentication+ValidateRequestParameter.
+2023-12-15 11:37:41.406 +07:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ValidateAuthorizationRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Authentication+ValidateRequestUriParameter.
+2023-12-15 11:37:41.407 +07:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ValidateAuthorizationRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Authentication+ValidateClientIdParameter.
+2023-12-15 11:37:41.408 +07:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ValidateAuthorizationRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Authentication+ValidateRedirectUriParameter.
+2023-12-15 11:37:41.412 +07:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ValidateAuthorizationRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Authentication+ValidateResponseTypeParameter.
+2023-12-15 11:37:41.414 +07:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ValidateAuthorizationRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Authentication+ValidateResponseModeParameter.
+2023-12-15 11:37:41.415 +07:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ValidateAuthorizationRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Authentication+ValidateScopeParameter.
+2023-12-15 11:37:41.415 +07:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ValidateAuthorizationRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Authentication+ValidateNonceParameter.
+2023-12-15 11:37:41.416 +07:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ValidateAuthorizationRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Authentication+ValidatePromptParameter.
+2023-12-15 11:37:41.417 +07:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ValidateAuthorizationRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Authentication+ValidateProofKeyForCodeExchangeParameters.
+2023-12-15 11:37:41.685 +07:00 [INF] The authorization request was rejected because the client application was not found: 'ChatApp_BlazorServerTiered'.
+2023-12-15 11:37:41.686 +07:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ValidateAuthorizationRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Authentication+ValidateClientId.
+2023-12-15 11:37:41.686 +07:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ValidateAuthorizationRequestContext was marked as rejected by OpenIddict.Server.OpenIddictServerHandlers+Authentication+ValidateClientId.
+2023-12-15 11:37:41.687 +07:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Authentication+ValidateAuthorizationRequest.
+2023-12-15 11:37:41.687 +07:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessRequestContext was marked as rejected by OpenIddict.Server.OpenIddictServerHandlers+Authentication+ValidateAuthorizationRequest.
+2023-12-15 11:37:41.688 +07:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessErrorContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+AttachErrorParameters.
+2023-12-15 11:37:41.689 +07:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessErrorContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+AttachCustomErrorParameters.
+2023-12-15 11:37:41.692 +07:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ApplyAuthorizationResponseContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Authentication+AttachRedirectUri.
+2023-12-15 11:37:41.692 +07:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ApplyAuthorizationResponseContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Authentication+InferResponseMode.
+2023-12-15 11:37:41.693 +07:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ApplyAuthorizationResponseContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Authentication+AttachResponseState.
+2023-12-15 11:37:41.693 +07:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ApplyAuthorizationResponseContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Authentication+AttachIssuer.
+2023-12-15 11:37:41.696 +07:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ApplyAuthorizationResponseContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+Authentication+ProcessFormPostResponse.
+2023-12-15 11:37:41.698 +07:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ApplyAuthorizationResponseContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+Authentication+ProcessQueryResponse.
+2023-12-15 11:37:41.699 +07:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ApplyAuthorizationResponseContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+Authentication+ProcessFragmentResponse.
+2023-12-15 11:37:41.699 +07:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ApplyAuthorizationResponseContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+AttachHttpResponseCode`1[[OpenIddict.Server.OpenIddictServerEvents+ApplyAuthorizationResponseContext, OpenIddict.Server, Version=4.10.0.0, Culture=neutral, PublicKeyToken=35a561290d20de2f]].
+2023-12-15 11:37:41.700 +07:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ApplyAuthorizationResponseContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+AttachCacheControlHeader`1[[OpenIddict.Server.OpenIddictServerEvents+ApplyAuthorizationResponseContext, OpenIddict.Server, Version=4.10.0.0, Culture=neutral, PublicKeyToken=35a561290d20de2f]].
+2023-12-15 11:37:41.701 +07:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ApplyAuthorizationResponseContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ProcessStatusCodePagesErrorResponse`1[[OpenIddict.Server.OpenIddictServerEvents+ApplyAuthorizationResponseContext, OpenIddict.Server, Version=4.10.0.0, Culture=neutral, PublicKeyToken=35a561290d20de2f]].
+2023-12-15 11:37:41.705 +07:00 [INF] The response was successfully returned as a plain-text document: {
+  "error": "invalid_request",
+  "error_description": "The specified 'client_id' is invalid.",
+  "error_uri": "https://documentation.openiddict.com/errors/ID2052"
+}.
+2023-12-15 11:37:41.707 +07:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ApplyAuthorizationResponseContext was successfully processed by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ProcessLocalErrorResponse`1[[OpenIddict.Server.OpenIddictServerEvents+ApplyAuthorizationResponseContext, OpenIddict.Server, Version=4.10.0.0, Culture=neutral, PublicKeyToken=35a561290d20de2f]].
+2023-12-15 11:37:41.707 +07:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ApplyAuthorizationResponseContext was marked as handled by OpenIddict.Server.AspNetCore.OpenIddictServerAspNetCoreHandlers+ProcessLocalErrorResponse`1[[OpenIddict.Server.OpenIddictServerEvents+ApplyAuthorizationResponseContext, OpenIddict.Server, Version=4.10.0.0, Culture=neutral, PublicKeyToken=35a561290d20de2f]].
+2023-12-15 11:37:41.707 +07:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessErrorContext was successfully processed by OpenIddict.Server.OpenIddictServerHandlers+Authentication+ApplyAuthorizationResponse`1[[OpenIddict.Server.OpenIddictServerEvents+ProcessErrorContext, OpenIddict.Server, Version=4.10.0.0, Culture=neutral, PublicKeyToken=35a561290d20de2f]].
+2023-12-15 11:37:41.707 +07:00 [DBG] The event OpenIddict.Server.OpenIddictServerEvents+ProcessErrorContext was marked as handled by OpenIddict.Server.OpenIddictServerHandlers+Authentication+ApplyAuthorizationResponse`1[[OpenIddict.Server.OpenIddictServerEvents+ProcessErrorContext, OpenIddict.Server, Version=4.10.0.0, Culture=neutral, PublicKeyToken=35a561290d20de2f]].
+2023-12-15 11:37:41.708 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44383/connect/authorize?client_id=ChatApp_BlazorServerTiered&redirect_uri=https%3A%2F%2Flocalhost%3A44319%2Fsignin-oidc&response_type=code%20id_token&scope=openid%20profile%20roles%20email%20phone%20ChatApp&response_mode=form_post&nonce=638382118613190660.YTdhNDU1ODQtMDFkYi00MTJjLTg0ZTUtZWIyMGMxMjNlZmFiYWRjOWM3YzgtM2YxOC00NGU2LThhZTAtMTdjMzMxYTkxZDQ5&state=CfDJ8BfBL1qkxDpHlytAHoxvlwfjAiV9MOWWLj70WIJ8Y5I3R6apRl0fsDbcE9208nCPU0jTbyRBjNpLSNkL0y5rul9S_kKu4-YAbo4yCOY9ZoDzANpBTLae0CrSko-or1fi80WFW7a1nZ9WddAh5QJfa8NMluFDoGo7UR-l1QCKsxIQRCWlwFu7S_nhJu6Uth116-I1Gc2KKfTJLjiIxQa_eeOFlNFkugoeyywdBARfvlcU1bXHoFCpnQ9P8l-dUWuHMRttHwRkHQU5Q40K5Ye28T55LMOiI_eLl5LTzcYJscFJ&x-client-SKU=ID_NET8_0&x-client-ver=7.0.3.0 - 400 139 text/plain;charset=UTF-8 323.7336ms
+2023-12-15 11:37:41.999 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44383/favicon.ico - null null
+2023-12-15 11:37:42.039 +07:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'N/A'
+2023-12-15 11:37:42.039 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44383/favicon.ico - 200 38078 image/x-icon 41.2871ms
+2023-12-15 11:38:56.949 +07:00 [INF] Application is shutting down...
+2023-12-15 11:38:57.002 +07:00 [DBG] Stopped background worker: Volo.Abp.OpenIddict.Tokens.TokenCleanupBackgroundWorker

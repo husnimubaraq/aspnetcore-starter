@@ -1,0 +1,171 @@
+2023-12-15 11:36:26.992 +07:00 [INF] Starting Husni.ChatApp.HttpApi.Host.
+2023-12-15 11:36:30.474 +07:00 [INF] Loaded ABP modules:
+2023-12-15 11:36:30.476 +07:00 [INF] - Husni.ChatApp.ChatAppHttpApiHostModule
+2023-12-15 11:36:30.477 +07:00 [INF]   - Husni.ChatApp.ChatAppHttpApiModule
+2023-12-15 11:36:30.477 +07:00 [INF]     - Husni.ChatApp.ChatAppApplicationContractsModule
+2023-12-15 11:36:30.477 +07:00 [INF]       - Husni.ChatApp.ChatAppDomainSharedModule
+2023-12-15 11:36:30.477 +07:00 [INF]         - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
+2023-12-15 11:36:30.477 +07:00 [INF]           - Volo.Abp.Validation.AbpValidationModule
+2023-12-15 11:36:30.477 +07:00 [INF]             - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2023-12-15 11:36:30.477 +07:00 [INF]             - Volo.Abp.Localization.AbpLocalizationModule
+2023-12-15 11:36:30.477 +07:00 [INF]               - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2023-12-15 11:36:30.477 +07:00 [INF]               - Volo.Abp.Settings.AbpSettingsModule
+2023-12-15 11:36:30.477 +07:00 [INF]                 - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2023-12-15 11:36:30.477 +07:00 [INF]                 - Volo.Abp.Security.AbpSecurityModule
+2023-12-15 11:36:30.477 +07:00 [INF]                 - Volo.Abp.Data.AbpDataModule
+2023-12-15 11:36:30.477 +07:00 [INF]                   - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2023-12-15 11:36:30.477 +07:00 [INF]                   - Volo.Abp.Uow.AbpUnitOfWorkModule
+2023-12-15 11:36:30.477 +07:00 [INF]                   - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2023-12-15 11:36:30.477 +07:00 [INF]               - Volo.Abp.Threading.AbpThreadingModule
+2023-12-15 11:36:30.477 +07:00 [INF]         - Volo.Abp.BackgroundJobs.AbpBackgroundJobsDomainSharedModule
+2023-12-15 11:36:30.477 +07:00 [INF]         - Volo.Abp.FeatureManagement.AbpFeatureManagementDomainSharedModule
+2023-12-15 11:36:30.477 +07:00 [INF]           - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2023-12-15 11:36:30.477 +07:00 [INF]             - Volo.Abp.Json.AbpJsonAbstractionsModule
+2023-12-15 11:36:30.477 +07:00 [INF]             - Volo.Abp.Timing.AbpTimingModule
+2023-12-15 11:36:30.477 +07:00 [INF]         - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2023-12-15 11:36:30.477 +07:00 [INF]           - Volo.Abp.Users.AbpUsersDomainSharedModule
+2023-12-15 11:36:30.477 +07:00 [INF]           - Volo.Abp.Features.AbpFeaturesModule
+2023-12-15 11:36:30.477 +07:00 [INF]             - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2023-12-15 11:36:30.477 +07:00 [INF]               - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+2023-12-15 11:36:30.477 +07:00 [INF]             - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2023-12-15 11:36:30.477 +07:00 [INF]         - Volo.Abp.OpenIddict.AbpOpenIddictDomainSharedModule
+2023-12-15 11:36:30.477 +07:00 [INF]         - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2023-12-15 11:36:30.477 +07:00 [INF]         - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2023-12-15 11:36:30.477 +07:00 [INF]         - Volo.Abp.TenantManagement.AbpTenantManagementDomainSharedModule
+2023-12-15 11:36:30.477 +07:00 [INF]       - Volo.Abp.Account.AbpAccountApplicationContractsModule
+2023-12-15 11:36:30.478 +07:00 [INF]         - Volo.Abp.Identity.AbpIdentityApplicationContractsModule
+2023-12-15 11:36:30.478 +07:00 [INF]           - Volo.Abp.Users.AbpUsersAbstractionModule
+2023-12-15 11:36:30.478 +07:00 [INF]             - Volo.Abp.EventBus.AbpEventBusModule
+2023-12-15 11:36:30.478 +07:00 [INF]               - Volo.Abp.Json.AbpJsonModule
+2023-12-15 11:36:30.478 +07:00 [INF]               - Volo.Abp.Guids.AbpGuidsModule
+2023-12-15 11:36:30.478 +07:00 [INF]               - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2023-12-15 11:36:30.478 +07:00 [INF]               - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2023-12-15 11:36:30.478 +07:00 [INF]           - Volo.Abp.Authorization.AbpAuthorizationModule
+2023-12-15 11:36:30.478 +07:00 [INF]           - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2023-12-15 11:36:30.478 +07:00 [INF]             - Volo.Abp.Application.AbpDddApplicationContractsModule
+2023-12-15 11:36:30.478 +07:00 [INF]               - Volo.Abp.Auditing.AbpAuditingContractsModule
+2023-12-15 11:36:30.478 +07:00 [INF]       - Volo.Abp.FeatureManagement.AbpFeatureManagementApplicationContractsModule
+2023-12-15 11:36:30.478 +07:00 [INF]       - Volo.Abp.SettingManagement.AbpSettingManagementApplicationContractsModule
+2023-12-15 11:36:30.478 +07:00 [INF]       - Volo.Abp.TenantManagement.AbpTenantManagementApplicationContractsModule
+2023-12-15 11:36:30.478 +07:00 [INF]     - Volo.Abp.Account.AbpAccountHttpApiModule
+2023-12-15 11:36:30.478 +07:00 [INF]       - Volo.Abp.Identity.AbpIdentityHttpApiModule
+2023-12-15 11:36:30.478 +07:00 [INF]         - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2023-12-15 11:36:30.478 +07:00 [INF]           - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2023-12-15 11:36:30.478 +07:00 [INF]             - Volo.Abp.Auditing.AbpAuditingModule
+2023-12-15 11:36:30.478 +07:00 [INF]             - Volo.Abp.Http.AbpHttpModule
+2023-12-15 11:36:30.478 +07:00 [INF]               - Volo.Abp.Http.AbpHttpAbstractionsModule
+2023-12-15 11:36:30.478 +07:00 [INF]               - Volo.Abp.Minify.AbpMinifyModule
+2023-12-15 11:36:30.478 +07:00 [INF]             - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2023-12-15 11:36:30.478 +07:00 [INF]           - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2023-12-15 11:36:30.478 +07:00 [INF]           - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2023-12-15 11:36:30.478 +07:00 [INF]           - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2023-12-15 11:36:30.478 +07:00 [INF]             - Volo.Abp.UI.AbpUiModule
+2023-12-15 11:36:30.478 +07:00 [INF]           - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2023-12-15 11:36:30.478 +07:00 [INF]           - Volo.Abp.Application.AbpDddApplicationModule
+2023-12-15 11:36:30.478 +07:00 [INF]             - Volo.Abp.Domain.AbpDddDomainModule
+2023-12-15 11:36:30.478 +07:00 [INF]               - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2023-12-15 11:36:30.478 +07:00 [INF]               - Volo.Abp.Specifications.AbpSpecificationsModule
+2023-12-15 11:36:30.478 +07:00 [INF]               - Volo.Abp.Caching.AbpCachingModule
+2023-12-15 11:36:30.478 +07:00 [INF]                 - Volo.Abp.Serialization.AbpSerializationModule
+2023-12-15 11:36:30.478 +07:00 [INF]               - Volo.Abp.Domain.AbpDddDomainSharedModule
+2023-12-15 11:36:30.478 +07:00 [INF]     - Volo.Abp.PermissionManagement.HttpApi.AbpPermissionManagementHttpApiModule
+2023-12-15 11:36:30.478 +07:00 [INF]     - Volo.Abp.TenantManagement.AbpTenantManagementHttpApiModule
+2023-12-15 11:36:30.478 +07:00 [INF]       - Volo.Abp.FeatureManagement.AbpFeatureManagementHttpApiModule
+2023-12-15 11:36:30.478 +07:00 [INF]     - Volo.Abp.SettingManagement.AbpSettingManagementHttpApiModule
+2023-12-15 11:36:30.478 +07:00 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2023-12-15 11:36:30.478 +07:00 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2023-12-15 11:36:30.478 +07:00 [INF]   - Volo.Abp.Caching.StackExchangeRedis.AbpCachingStackExchangeRedisModule
+2023-12-15 11:36:30.478 +07:00 [INF]   - Volo.Abp.DistributedLocking.AbpDistributedLockingModule
+2023-12-15 11:36:30.478 +07:00 [INF]   - Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy.AbpAspNetCoreMvcUiMultiTenancyModule
+2023-12-15 11:36:30.478 +07:00 [INF]     - Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared.AbpAspNetCoreMvcUiThemeSharedModule
+2023-12-15 11:36:30.478 +07:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.AbpAspNetCoreMvcUiBootstrapModule
+2023-12-15 11:36:30.478 +07:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.AbpAspNetCoreMvcUiModule
+2023-12-15 11:36:30.478 +07:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Packages.AbpAspNetCoreMvcUiPackagesModule
+2023-12-15 11:36:30.478 +07:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingAbstractionsModule
+2023-12-15 11:36:30.478 +07:00 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Widgets.AbpAspNetCoreMvcUiWidgetsModule
+2023-12-15 11:36:30.478 +07:00 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingModule
+2023-12-15 11:36:30.478 +07:00 [INF]     - Volo.Abp.AspNetCore.MultiTenancy.AbpAspNetCoreMultiTenancyModule
+2023-12-15 11:36:30.478 +07:00 [INF]   - Husni.ChatApp.ChatAppApplicationModule
+2023-12-15 11:36:30.478 +07:00 [INF]     - Husni.ChatApp.ChatAppDomainModule
+2023-12-15 11:36:30.478 +07:00 [INF]       - Volo.Abp.AuditLogging.AbpAuditLoggingDomainModule
+2023-12-15 11:36:30.478 +07:00 [INF]       - Volo.Abp.BackgroundJobs.AbpBackgroundJobsDomainModule
+2023-12-15 11:36:30.478 +07:00 [INF]         - Volo.Abp.BackgroundJobs.AbpBackgroundJobsModule
+2023-12-15 11:36:30.478 +07:00 [INF]           - Volo.Abp.BackgroundJobs.AbpBackgroundJobsAbstractionsModule
+2023-12-15 11:36:30.478 +07:00 [INF]         - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2023-12-15 11:36:30.478 +07:00 [INF]       - Volo.Abp.FeatureManagement.AbpFeatureManagementDomainModule
+2023-12-15 11:36:30.478 +07:00 [INF]       - Volo.Abp.Identity.AbpIdentityDomainModule
+2023-12-15 11:36:30.478 +07:00 [INF]         - Volo.Abp.Users.AbpUsersDomainModule
+2023-12-15 11:36:30.478 +07:00 [INF]       - Volo.Abp.OpenIddict.AbpOpenIddictDomainModule
+2023-12-15 11:36:30.478 +07:00 [INF]       - Volo.Abp.PermissionManagement.OpenIddict.AbpPermissionManagementDomainOpenIddictModule
+2023-12-15 11:36:30.478 +07:00 [INF]         - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2023-12-15 11:36:30.478 +07:00 [INF]       - Volo.Abp.PermissionManagement.Identity.AbpPermissionManagementDomainIdentityModule
+2023-12-15 11:36:30.478 +07:00 [INF]       - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+2023-12-15 11:36:30.478 +07:00 [INF]       - Volo.Abp.TenantManagement.AbpTenantManagementDomainModule
+2023-12-15 11:36:30.478 +07:00 [INF]       - Volo.Abp.Emailing.AbpEmailingModule
+2023-12-15 11:36:30.478 +07:00 [INF]         - Volo.Abp.TextTemplating.AbpTextTemplatingModule
+2023-12-15 11:36:30.478 +07:00 [INF]           - Volo.Abp.TextTemplating.Scriban.AbpTextTemplatingScribanModule
+2023-12-15 11:36:30.478 +07:00 [INF]             - Volo.Abp.TextTemplating.AbpTextTemplatingCoreModule
+2023-12-15 11:36:30.478 +07:00 [INF]     - Volo.Abp.Account.AbpAccountApplicationModule
+2023-12-15 11:36:30.478 +07:00 [INF]       - Volo.Abp.Identity.AbpIdentityApplicationModule
+2023-12-15 11:36:30.478 +07:00 [INF]         - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationModule
+2023-12-15 11:36:30.479 +07:00 [INF]     - Volo.Abp.TenantManagement.AbpTenantManagementApplicationModule
+2023-12-15 11:36:30.479 +07:00 [INF]     - Volo.Abp.FeatureManagement.AbpFeatureManagementApplicationModule
+2023-12-15 11:36:30.479 +07:00 [INF]     - Volo.Abp.SettingManagement.AbpSettingManagementApplicationModule
+2023-12-15 11:36:30.479 +07:00 [INF]   - Husni.ChatApp.EntityFrameworkCore.ChatAppEntityFrameworkCoreModule
+2023-12-15 11:36:30.479 +07:00 [INF]     - Volo.Abp.Identity.EntityFrameworkCore.AbpIdentityEntityFrameworkCoreModule
+2023-12-15 11:36:30.479 +07:00 [INF]       - Volo.Abp.Users.EntityFrameworkCore.AbpUsersEntityFrameworkCoreModule
+2023-12-15 11:36:30.479 +07:00 [INF]         - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2023-12-15 11:36:30.479 +07:00 [INF]     - Volo.Abp.OpenIddict.EntityFrameworkCore.AbpOpenIddictEntityFrameworkCoreModule
+2023-12-15 11:36:30.479 +07:00 [INF]     - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2023-12-15 11:36:30.479 +07:00 [INF]     - Volo.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
+2023-12-15 11:36:30.479 +07:00 [INF]     - Volo.Abp.EntityFrameworkCore.MySQL.AbpEntityFrameworkCoreMySQLModule
+2023-12-15 11:36:30.479 +07:00 [INF]     - Volo.Abp.BackgroundJobs.EntityFrameworkCore.AbpBackgroundJobsEntityFrameworkCoreModule
+2023-12-15 11:36:30.479 +07:00 [INF]     - Volo.Abp.AuditLogging.EntityFrameworkCore.AbpAuditLoggingEntityFrameworkCoreModule
+2023-12-15 11:36:30.479 +07:00 [INF]     - Volo.Abp.TenantManagement.EntityFrameworkCore.AbpTenantManagementEntityFrameworkCoreModule
+2023-12-15 11:36:30.479 +07:00 [INF]     - Volo.Abp.FeatureManagement.EntityFrameworkCore.AbpFeatureManagementEntityFrameworkCoreModule
+2023-12-15 11:36:30.479 +07:00 [INF]   - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2023-12-15 11:36:30.479 +07:00 [INF]   - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2023-12-15 11:36:31.155 +07:00 [DBG] Started background worker: Volo.Abp.BackgroundJobs.BackgroundJobWorker
+2023-12-15 11:36:31.213 +07:00 [DBG] Started background worker: Volo.Abp.OpenIddict.Tokens.TokenCleanupBackgroundWorker
+2023-12-15 11:36:32.112 +07:00 [INF] User profile is available. Using '/Users/m/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-12-15 11:36:32.310 +07:00 [INF] Initialized all ABP modules.
+2023-12-15 11:36:32.798 +07:00 [INF] Now listening on: https://localhost:44355
+2023-12-15 11:36:32.799 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-15 11:36:32.799 +07:00 [INF] Hosting environment: Development
+2023-12-15 11:36:32.800 +07:00 [INF] Content root path: /Users/m/Project/Web/ABP/Husni.ChatApp/src/Husni.ChatApp.HttpApi.Host
+2023-12-15 11:37:25.591 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44355/api/abp/application-configuration?IncludeLocalizationResources=False&api-version=1.0 - null null
+2023-12-15 11:37:26.984 +07:00 [INF] Executing endpoint 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc)'
+2023-12-15 11:37:27.034 +07:00 [INF] Route matched with {area = "abp", action = "Get", controller = "AbpApplicationConfiguration", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationConfigurationDto] GetAsync(Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationConfigurationRequestOptions) on controller Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController (Volo.Abp.AspNetCore.Mvc).
+2023-12-15 11:37:27.245 +07:00 [DBG] Executing AbpApplicationConfigurationAppService.GetAsync()...
+2023-12-15 11:37:30.233 +07:00 [DBG] Executed AbpApplicationConfigurationAppService.GetAsync().
+2023-12-15 11:37:30.408 +07:00 [DBG] Added 0 entity changes to the current audit log
+2023-12-15 11:37:30.442 +07:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationConfigurationDto'.
+2023-12-15 11:37:30.570 +07:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc) in 3524.7257ms
+2023-12-15 11:37:30.571 +07:00 [INF] Executed endpoint 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc)'
+2023-12-15 11:37:30.616 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44355/api/abp/application-configuration?IncludeLocalizationResources=False&api-version=1.0 - 200 null application/json; charset=utf-8 5024.3404ms
+2023-12-15 11:37:30.783 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44355/api/abp/application-localization?CultureName=en&OnlyDynamics=True&api-version=1.0 - null null
+2023-12-15 11:37:30.792 +07:00 [INF] Executing endpoint 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationLocalizationController.GetAsync (Volo.Abp.AspNetCore.Mvc)'
+2023-12-15 11:37:30.807 +07:00 [INF] Route matched with {area = "abp", action = "Get", controller = "AbpApplicationLocalization", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationLocalizationDto] GetAsync(Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationLocalizationRequestDto) on controller Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationLocalizationController (Volo.Abp.AspNetCore.Mvc).
+2023-12-15 11:37:30.955 +07:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationLocalizationDto'.
+2023-12-15 11:37:30.958 +07:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationLocalizationController.GetAsync (Volo.Abp.AspNetCore.Mvc) in 151.155ms
+2023-12-15 11:37:30.958 +07:00 [INF] Executed endpoint 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationLocalizationController.GetAsync (Volo.Abp.AspNetCore.Mvc)'
+2023-12-15 11:37:30.960 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44355/api/abp/application-localization?CultureName=en&OnlyDynamics=True&api-version=1.0 - 200 null application/json; charset=utf-8 177.2601ms
+2023-12-15 11:37:34.175 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44355/api/abp/application-configuration?IncludeLocalizationResources=False&api-version=1.0 - null null
+2023-12-15 11:37:34.178 +07:00 [INF] Executing endpoint 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc)'
+2023-12-15 11:37:34.179 +07:00 [INF] Route matched with {area = "abp", action = "Get", controller = "AbpApplicationConfiguration", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationConfigurationDto] GetAsync(Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationConfigurationRequestOptions) on controller Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController (Volo.Abp.AspNetCore.Mvc).
+2023-12-15 11:37:34.187 +07:00 [DBG] Executing AbpApplicationConfigurationAppService.GetAsync()...
+2023-12-15 11:37:34.211 +07:00 [DBG] Executed AbpApplicationConfigurationAppService.GetAsync().
+2023-12-15 11:37:34.212 +07:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationConfigurationDto'.
+2023-12-15 11:37:34.213 +07:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc) in 33.8733ms
+2023-12-15 11:37:34.213 +07:00 [INF] Executed endpoint 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc)'
+2023-12-15 11:37:34.214 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44355/api/abp/application-configuration?IncludeLocalizationResources=False&api-version=1.0 - 200 null application/json; charset=utf-8 38.3967ms
+2023-12-15 11:37:34.221 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44355/api/abp/application-localization?CultureName=en&OnlyDynamics=True&api-version=1.0 - null null
+2023-12-15 11:37:34.224 +07:00 [INF] Executing endpoint 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationLocalizationController.GetAsync (Volo.Abp.AspNetCore.Mvc)'
+2023-12-15 11:37:34.225 +07:00 [INF] Route matched with {area = "abp", action = "Get", controller = "AbpApplicationLocalization", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationLocalizationDto] GetAsync(Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationLocalizationRequestDto) on controller Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationLocalizationController (Volo.Abp.AspNetCore.Mvc).
+2023-12-15 11:37:34.232 +07:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationLocalizationDto'.
+2023-12-15 11:37:34.232 +07:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationLocalizationController.GetAsync (Volo.Abp.AspNetCore.Mvc) in 7.3925ms
+2023-12-15 11:37:34.232 +07:00 [INF] Executed endpoint 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationLocalizationController.GetAsync (Volo.Abp.AspNetCore.Mvc)'
+2023-12-15 11:37:34.233 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44355/api/abp/application-localization?CultureName=en&OnlyDynamics=True&api-version=1.0 - 200 null application/json; charset=utf-8 11.2944ms
+2023-12-15 11:38:57.809 +07:00 [INF] Application is shutting down...
+2023-12-15 11:38:57.840 +07:00 [DBG] Stopped background worker: Volo.Abp.BackgroundJobs.BackgroundJobWorker
+2023-12-15 11:38:57.841 +07:00 [DBG] Stopped background worker: Volo.Abp.OpenIddict.Tokens.TokenCleanupBackgroundWorker

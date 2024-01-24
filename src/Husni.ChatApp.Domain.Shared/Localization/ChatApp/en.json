@@ -1,0 +1,28 @@
+{
+  "Culture": "en",
+  "Texts": {
+    "Menu:Home": "Home",
+    "Welcome": "Welcome",
+    "LongWelcomeMessage": "Welcome to the application. This is a startup project based on the ABP framework. For more information, visit abp.io.",
+    "Menu:ChatApp": "Chat App",
+    "Menu:Articles": "Articles",
+    "Actions": "Actions",
+    "Close": "Close",
+    "Delete": "Delete",
+    "Edit": "Edit",
+    "PublishDate": "Publish date",
+    "NewArticle": "New article",
+    "Name": "Name",
+    "Title": "Title",
+    "Description": "Description",
+    "Slug": "Slug",
+    "AreYouSure": "Are you sure?",
+    "AreYouSureToDelete": "Are you sure you want to delete this item?",
+    "ChatApp:00001": "There is already an article with the same slug: {slug}",
+    "Permission:Articles": "Article Management",
+    "Permission:Articles.Create": "Creating new articles",
+    "Permission:Articles.Edit": "Editing the articles",
+    "Permission:Articles.Delete": "Deleting the articles",
+    "ArticleDeletionConfirmationMessage": "Are you sure to delete the article '{0}'?"
+  }
+}

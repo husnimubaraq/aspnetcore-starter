@@ -1,0 +1,190 @@
+@page "/articles"
+@using Husni.ChatApp.Articles
+@using Husni.ChatApp.Localization
+@using Volo.Abp.AspNetCore.Components.Web
+@inherits ChatAppComponentBase
+@inject IArticleAppService ArticleAppService
+@inject AbpBlazorMessageLocalizerHelper<ChatAppResource> LH
+
+<Card>
+    <CardHeader>
+        <Row Class="justify-content-between">
+            <Column ColumnSize="ColumnSize.IsAuto">
+                <h2>@L["Articles"]</h2>
+            </Column>
+            <Column ColumnSize="ColumnSize.IsAuto">
+                    @if (CanCreateArticle)
+                    {
+                        <Button Color="Color.Primary"
+                                Clicked="OpenCreateArticleModal">
+                            @L["NewArticle"]
+                        </Button>
+                    }
+            </Column>
+        </Row>
+    </CardHeader>
+    <CardBody>
+        <DataGrid 
+            TItem="ArticleDto"
+            Data="ArticleList"
+            ReadData="OnDataGridReadAsync"
+            TotalItems="TotalCount"
+            ShowPager="true"
+            PageSize="PageSize"
+        >
+            <DataGridColumns>
+                <DataGridColumn Width="150px"
+                                TItem="ArticleDto"
+                                Field="@nameof(ArticleDto.Id)"
+                                Sortable="false"
+                                Caption="@L["Actions"]">
+                    <DisplayTemplate>
+                        <Dropdown>
+                            <DropdownToggle Color="Color.Primary">
+                                @L["Actions"]
+                            </DropdownToggle>
+                            <DropdownMenu>
+                                @if (CanEditArticle)
+                                {
+                                    <DropdownItem Clicked="() => OpenEditArticleModal(context)">
+                                        @L["Edit"]
+                                    </DropdownItem>
+                                }
+                                @if (CanDeleteArticle)
+                                {
+                                    <DropdownItem Clicked="() => DeleteArticleAsync(context)">
+                                        @L["Delete"]
+                                    </DropdownItem>
+                                }
+                            </DropdownMenu>
+                        </Dropdown>
+                    </DisplayTemplate>
+                </DataGridColumn>
+                <DataGridColumn TItem="ArticleDto"
+                                Field="@nameof(ArticleDto.Title)"
+                                Caption="@L["Title"]"></DataGridColumn>
+                <DataGridColumn TItem="ArticleDto"
+                                Field="@nameof(ArticleDto.Slug)"
+                                Caption="@L["Slug"]"></DataGridColumn>
+                <DataGridColumn TItem="ArticleDto"
+                                Field="@nameof(ArticleDto.Description)"
+                                Caption="@L["Description"]"></DataGridColumn>
+            </DataGridColumns>
+        </DataGrid>
+    </CardBody>
+</Card>
+<Modal @ref="CreateArticleModal">
+    <ModalBackdrop />
+    <ModalContent IsCentered="true">
+        <Form>
+            <ModalHeader>
+                <ModalTitle>@L["NewArticle"]</ModalTitle>
+                <CloseButton Clicked="CloseCreateArticleModal" />
+            </ModalHeader>
+            <ModalBody>
+                <Validations @ref="@CreateValidationsRef" Model="@NewArticle" ValidateOnLoad="false">
+                    <Validation MessageLocalizer="@LH.Localize">
+                        <Field>
+                            <FieldLabel>@L["Title"]</FieldLabel>
+                            <TextEdit @bind-Text="@NewArticle.Title">
+                                <Feedback>
+                                    <ValidationError/>
+                                </Feedback>
+                            </TextEdit>
+                        </Field>
+                    </Validation>
+                    <Validation MessageLocalizer="@LH.Localize">
+                        <Field>
+                            <FieldLabel>@L["Slug"]</FieldLabel>
+                            <TextEdit @bind-Text="@NewArticle.Slug">
+                                <Feedback>
+                                    <ValidationError/>
+                                </Feedback>
+                            </TextEdit>
+                        </Field>
+                    </Validation>
+                    <Validation MessageLocalizer="@LH.Localize">
+                        <Field>
+                            <FieldLabel>@L["Description"]</FieldLabel>
+                            <TextEdit @bind-Text="@NewArticle.Description">
+                                <Feedback>
+                                    <ValidationError/>
+                                </Feedback>
+                            </TextEdit>
+                        </Field>
+                    </Validation>
+                </Validations>
+            </ModalBody>
+            <ModalFooter>
+                <Button Color="Color.Secondary"
+                        Clicked="CloseCreateArticleModal">
+                    @L["Cancel"]
+                </Button>
+                <Button Color="Color.Primary"
+                        Type="@Blazorise.ButtonType.Submit"
+                        PreventDefaultOnSubmit="true"
+                        Clicked="CreateArticleAsync">
+                    @L["Save"]
+                </Button>
+            </ModalFooter>
+        </Form>
+    </ModalContent>
+</Modal>
+
+<Modal @ref="EditArticleModal">
+    <ModalBackdrop />
+    <ModalContent IsCentered="true">
+        <Form>
+            <ModalHeader>
+                        <ModalTitle>@EditingArticle.Title</ModalTitle>
+                        <CloseButton Clicked="CloseEditArticleModal" />
+                    </ModalHeader>
+            <ModalBody>
+                <Validations @ref="@EditValidationsRef" Model="@EditingArticle" ValidateOnLoad="false">
+                    <Validation MessageLocalizer="@LH.Localize">
+                        <Field>
+                            <FieldLabel>@L["Title"]</FieldLabel>
+                            <TextEdit @bind-Text="@EditingArticle.Title">
+                                <Feedback>
+                                    <ValidationError/>
+                                </Feedback>
+                            </TextEdit>
+                        </Field>
+                    </Validation>
+                    <Validation MessageLocalizer="@LH.Localize">
+                        <Field>
+                            <FieldLabel>@L["Slug"]</FieldLabel>
+                            <TextEdit @bind-Text="@EditingArticle.Slug">
+                                <Feedback>
+                                    <ValidationError/>
+                                </Feedback>
+                            </TextEdit>
+                        </Field>
+                    </Validation>
+                    <Validation MessageLocalizer="@LH.Localize">
+                        <Field>
+                            <FieldLabel>@L["Description"]</FieldLabel>
+                            <TextEdit @bind-Text="@EditingArticle.Description">
+                                <Feedback>
+                                    <ValidationError/>
+                                </Feedback>
+                            </TextEdit>
+                        </Field>
+                    </Validation>
+                </Validations>
+            </ModalBody>
+            <ModalFooter>
+                <Button Color="Color.Secondary"
+                        Clicked="CloseEditArticleModal">
+                    @L["Cancel"]
+                </Button>
+                <Button Color="Color.Primary"
+                        Type="@Blazorise.ButtonType.Submit"
+                        PreventDefaultOnSubmit="true"
+                        Clicked="UpdateArticleAsync">
+                    @L["Save"]
+                </Button>
+            </ModalFooter>
+        </Form>
+    </ModalContent>
+</Modal>
